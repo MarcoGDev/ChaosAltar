@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/MarcoGDev/Invul_zin/">
-    <img src="images/pencil.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/MarcoGDev/ChaosAltar/">
+    <img src="images/Chaos_Temple.png" alt="Logo" width="600" height="420">
   </a>
 
   <h3 align="center">Chaos_Altar_Bury</h3>
@@ -27,6 +27,11 @@ Oldschool Runescape RSPeer prayer training script. Pakt botten op bij de Chaos a
 
 ## Getting started
 Installeer Java & RSPeer en voeg dit script toe aan RSpeer. Start het script bij de Chaos Altar in de wilderness.
+
+* Starting location
+
+<img src="images/Chaos_Temple_map.png" alt="Logo" width="240" height="240">
+
 
 ## Prerequisites
 * Java
