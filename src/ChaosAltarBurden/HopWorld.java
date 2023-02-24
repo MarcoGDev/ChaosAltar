@@ -9,8 +9,6 @@ import org.rspeer.ui.Log;
 import ChaosAltarBurden.util.State;
 
 
-
-
 public class HopWorld extends Task {
 
 
@@ -27,8 +25,6 @@ public class HopWorld extends Task {
 
 
     private static void Hop() {
-
-
         Time.sleepUntil(WorldHopper::open, 2400, 4800);
         ChaosAltarBurden.status = "WAITING 10 SECONDS.";
 
@@ -48,8 +44,5 @@ public class HopWorld extends Task {
         WorldHopper.randomHop(world -> world.getId() != Game.getClient().getCurrentWorld() && !world.isMembers()
                 && !world.isPVP() && !world.isSkillTotal() && !world.isTournament() && !world.isHighRisk()
                 && !world.isDeadman() && !world.isSeasonDeadman());
-
-
     }
-
 }
